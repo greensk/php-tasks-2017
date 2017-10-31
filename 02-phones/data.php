@@ -370,4 +370,4 @@
     'articlesCount' => 11,
     'isNew' => 0,
   ),
-)
+);

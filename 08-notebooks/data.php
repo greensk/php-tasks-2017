@@ -380,4 +380,4 @@
     'isNew' => 1,
     'modificationsCount' => 1,
   ),
-)
+);
