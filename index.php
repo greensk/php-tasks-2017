@@ -11,6 +11,7 @@ if (!file_exists($filename)) {
 }
 require($filename);
 header('Content-Type: application/json; charset=UTF-8');
+header('Access-Control-Allow-Origin: *');
 
 $data = array_map(
   function ($record) use ($key) {
